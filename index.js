@@ -14,7 +14,7 @@ let items = [
 app.use(express.json())
 
 
-//CREATE: Add a new tassk
+//READ: Viewing all tasks or a specific task.
 app.get('/task', (req,res) => {
     res.json({
         items: items,
